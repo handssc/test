@@ -14,6 +14,7 @@
 		D5FBEF8F1A762FFC0099A552 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5FBEF8E1A762FFC0099A552 /* Images.xcassets */; };
 		D5FBEF921A762FFC0099A552 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5FBEF901A762FFC0099A552 /* LaunchScreen.xib */; };
 		D5FBEF9E1A762FFC0099A552 /* testgitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5FBEF9D1A762FFC0099A552 /* testgitTests.m */; };
+		D5FBEFA91A76346B0099A552 /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5FBEFA81A76346B0099A552 /* testViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		D5FBEF971A762FFC0099A552 /* testgitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testgitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5FBEF9C1A762FFC0099A552 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D5FBEF9D1A762FFC0099A552 /* testgitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testgitTests.m; sourceTree = "<group>"; };
+		D5FBEFA71A76346B0099A552 /* testViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
+		D5FBEFA81A76346B0099A552 /* testViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,8 @@
 		D5FBEF751A762FFB0099A552 = {
 			isa = PBXGroup;
 			children = (
+				D5FBEFA71A76346B0099A552 /* testViewController.h */,
+				D5FBEFA81A76346B0099A552 /* testViewController.m */,
 				D5FBEF801A762FFB0099A552 /* testgit */,
 				D5FBEF9A1A762FFC0099A552 /* testgitTests */,
 				D5FBEF7F1A762FFB0099A552 /* Products */,
@@ -221,6 +226,7 @@
 			files = (
 				D5FBEF8A1A762FFB0099A552 /* ViewController.m in Sources */,
 				D5FBEF871A762FFB0099A552 /* AppDelegate.m in Sources */,
+				D5FBEFA91A76346B0099A552 /* testViewController.m in Sources */,
 				D5FBEF841A762FFB0099A552 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
